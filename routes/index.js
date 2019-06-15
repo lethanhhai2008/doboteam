@@ -1,3 +1,8 @@
+/*
+* Author: Dobo team
+* Date: 15/6/2019
+* */
+
 var express = require('express');
 var router = express.Router();
 var g_vietnam_locality = require('../data/vietnam_locality.json');
@@ -11,37 +16,58 @@ const g_scope_code = {
     insite: '001',
     outsite: '002',
 };
-router.get('/vnpostFree', function(req, res, next) {
+const g_dimension_code = {
+    weigh: '001',
+    size: '002',
+};
+router.post('/vnpostFree', function(req, res, next) {
+    var result = {
+        'price1': '50.000 VNĐ_1.5 - 2 ngày',
+        'price2': '110.000 VNĐ',
+        'price3': '35.200 VNĐ'
+    };
+
   var body = req.body,
-      scope_code = body.scope_code,
+      // scope_code = body.scope_code,
       add_from = body.from,
       add_to = body.to,
-      weight = body.weight,
-      size = body.size;
+      dimension = body.dimension;
+      // long = body.long,
+      // weight = body.weight,
+      // height = body.height;
+    console.log('From -> To: ', add_from, ' -> ', add_to);
 
-    var result = [
-        {
-            service_name: 'Bưu phẩm thường',
-            fee_guess: '14.000 VNĐ'
-        },
-        {
-            service_name: 'Chuyển phát nhanh EMS',
-            fee_guess: '43.700  VNĐ',
-            time: 'Từ 1.5 đến 2 ngày',
-        },
-        {
-            service_name: 'Bưu phẩm bảo đảm',
-            fee_guess: '18.500  VNĐ',
-        },
-        {
-            service_name: 'Logistics Eco',
-            fee_guess: '120.000  VNĐ',
-        },
-        {
-            service_name: 'Bưu kiện trong nước',
-            fee_guess: '17.000  VNĐ',
+    if(add_from == add_to) {
+        if(dimension == g_dimension_code.weigh) {
+            result = {
+                'price1': '23.000 VNĐ',
+                'price2': '50.000 VNĐ_Phát trong ngày',
+                'price3': '81.400 VNĐ'
+            };
+        } else {
+            result = {
+                'price1': '14.000 VNĐ',
+                'price2': '33.000 VNĐ_1.5 - 2 ngày',
+                'price3': '18.500 VNĐ',
+                'price4': '120.000 VNĐ',
+                'price5': '17.000 VNĐ'
+            };
         }
-    ];
+    } else {
+        if(dimension == g_dimension_code.weigh) {
+            result = {
+                'price1': '43.000 VNĐ',
+                'price2': '90.000 VNĐ_Phát trong ngày',
+                'price3': '81.400 VNĐ'
+            };
+        } else {
+            result = {
+                'price1': '78.900 VNĐ_1.5 - 2 ngày',
+                'price2': '120.000 VNĐ',
+                'price3': '36.200 VNĐ'
+            };
+        }
+    }
   res.status(200).send(result);
 });
 

@@ -1,9 +1,3 @@
 {
-//    "dbURL" : "mongodb://:@127.0.0.1:27017/embot?authSource=admin",
-    "timezone" : "Asia/Tokyo",
     "port" : "9090"
-//    "azure_storage_matchwatch_container" : "socket-tungnk",
-//    "azure_storage_name" : "botchancms",
-//    "azure_storage_container" : "tungnk",
-//    "azure_connectstring" : "DefaultEndpointsProtocol=https;AccountName=botchancms;AccountKey=XpNSTGW+MwDxpO+L3DSFKtxd1eyOZEjryNmyrpkpT2mfvNjvpIZG27FOfvbP6GZ868TgY4NEe/Fq1umw8d8nzg==;EndpointSuffix=core.windows.net"
 }
