@@ -25,8 +25,8 @@ router.post('/vnpostFree', function(req, res, next) {
         'price1': '50.000 VNĐ (1.5 - 2 ngày)',
         'price2': '110.000 VNĐ',
         'price3': '35.200 VNĐ',
-        'price4': 0,
-        'price5': 0
+        'price4': '0',
+        'price5': '0'
     };
 
   var body = req.body,
@@ -46,16 +46,16 @@ router.post('/vnpostFree', function(req, res, next) {
                 'price1': '23.000 VNĐ',
                 'price2': '50.000 VNĐ (Phát trong ngày)',
                 'price3': '81.400 VNĐ',
-                'price4': 0,
-                'price5': 0
+                'price4': '0',
+                'price5': '0'
             };
         } else {
             result = {
                 'price1': '43.000 VNĐ',
                 'price2': '90.000 VNĐ (Phát trong ngày)',
                 'price3': '81.400 VNĐ',
-                'price4': 0,
-                'price5': 0
+                'price4': '0',
+                'price5': '0'
             };
         }
     } else {
@@ -73,8 +73,8 @@ router.post('/vnpostFree', function(req, res, next) {
                 'price1': '78.900 VNĐ (1.5 - 2 ngày)',
                 'price2': '120.000 VNĐ',
                 'price3': '36.200 VNĐ',
-                'price4': 0,
-                'price5': 0
+                'price4': '0',
+                'price5': '0'
             };
         }
     }
