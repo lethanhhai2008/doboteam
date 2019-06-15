@@ -12,6 +12,10 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'ANGELHACK VIETNAM HACKATHON 2019', teamName: 'Dobo team' });
 });
 
+router.get('/demo/vnpost', function(req, res, next) {
+    res.render('vnpost', {});
+});
+
 const g_scope_code = {
     insite: '001',
     outsite: '002',
