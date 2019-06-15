@@ -1,266 +1,266 @@
 [
   {
     "value": "147",
-    "name": "An Giang"
+    "text": "An Giang"
   },
   {
     "value": "150",
-    "name": "Bà Rịa Vũng Tàu"
+    "text": "Bà Rịa Vũng Tàu"
   },
   {
     "value": "120",
-    "name": "Bắc Giang"
+    "text": "Bắc Giang"
   },
   {
     "value": "119",
-    "name": "Bắc Kạn"
+    "text": "Bắc Kạn"
   },
   {
     "value": "151",
-    "name": "Bạc Liêu"
+    "text": "Bạc Liêu"
   },
   {
     "value": "121",
-    "name": "Bắc Ninh"
+    "text": "Bắc Ninh"
   },
   {
     "value": "152",
-    "name": "Bến Tre"
+    "text": "Bến Tre"
   },
   {
     "value": "148",
-    "name": "Bình Dương"
+    "text": "Bình Dương"
   },
   {
     "value": "171",
-    "name": "Bình Định"
+    "text": "Bình Định"
   },
   {
     "value": "149",
-    "name": "Bình Phước"
+    "text": "Bình Phước"
   },
   {
     "value": "153",
-    "name": "Bình Thuận"
+    "text": "Bình Thuận"
   },
   {
     "value": "154",
-    "name": "Cà Mau"
+    "text": "Cà Mau"
   },
   {
     "value": "155",
-    "name": "Cần Thơ"
+    "text": "Cần Thơ"
   },
   {
     "value": "122",
-    "name": "Cao Bằng"
+    "text": "Cao Bằng"
   },
   {
     "value": "183",
-    "name": "Đà Nẵng - Nội thành"
+    "text": "Đà Nẵng - Nội thành"
   },
   {
     "value": "172",
-    "name": "Đà Nẵng - Ngoại thành"
+    "text": "Đà Nẵng - Ngoại thành"
   },
   {
     "value": "169",
-    "name": "Đắk Lắk"
+    "text": "Đắk Lắk"
   },
   {
     "value": "170",
-    "name": "Đắk Nông"
+    "text": "Đắk Nông"
   },
   {
     "value": "123",
-    "name": "Điên Biên"
+    "text": "Điên Biên"
   },
   {
     "value": "156",
-    "name": "Đồng Nai"
+    "text": "Đồng Nai"
   },
   {
     "value": "157",
-    "name": "Đồng Tháp"
+    "text": "Đồng Tháp"
   },
   {
     "value": "173",
-    "name": "Gia Lai"
+    "text": "Gia Lai"
   },
   {
     "value": "125",
-    "name": "Hà Giang"
+    "text": "Hà Giang"
   },
   {
     "value": "126",
-    "name": "Hà Nam"
+    "text": "Hà Nam"
   },
   {
     "value": "182",
-    "name": "Hà Nội - Nội thành"
+    "text": "Hà Nội - Nội thành"
   },
   {
     "value": "124",
-    "name": "Hà Nội - Ngoại thành"
+    "text": "Hà Nội - Ngoại thành"
   },
   {
     "value": "127",
-    "name": "Ha Tĩnh"
+    "text": "Ha Tĩnh"
   },
   {
     "value": "128",
-    "name": "Hải Dương"
+    "text": "Hải Dương"
   },
   {
     "value": "129",
-    "name": "Hải Phòng"
+    "text": "Hải Phòng"
   },
   {
     "value": "159",
-    "name": "Hậu Giang"
+    "text": "Hậu Giang"
   },
   {
     "value": "131",
-    "name": "Hòa Bình"
+    "text": "Hòa Bình"
   },
   {
     "value": "130",
-    "name": "Hưng Yên"
+    "text": "Hưng Yên"
   },
   {
     "value": "160",
-    "name": "Kiên Giang"
+    "text": "Kiên Giang"
   },
   {
     "value": "175",
-    "name": "Kon Tum"
+    "text": "Kon Tum"
   },
   {
     "value": "176",
-    "name": "Khánh Hòa"
+    "text": "Khánh Hòa"
   },
   {
     "value": "133",
-    "name": "Lai Châu"
+    "text": "Lai Châu"
   },
   {
     "value": "134",
-    "name": "Lạng Sơn"
+    "text": "Lạng Sơn"
   },
   {
     "value": "132",
-    "name": "Lào Cai"
+    "text": "Lào Cai"
   },
   {
     "value": "162",
-    "name": "Lâm Đồng"
+    "text": "Lâm Đồng"
   },
   {
     "value": "161",
-    "name": "Long An"
+    "text": "Long An"
   },
   {
     "value": "135",
-    "name": "Nam Định"
+    "text": "Nam Định"
   },
   {
     "value": "137",
-    "name": "Ninh Bình"
+    "text": "Ninh Bình"
   },
   {
     "value": "163",
-    "name": "Ninh Thuận"
+    "text": "Ninh Thuận"
   },
   {
     "value": "136",
-    "name": "Nghệ An"
+    "text": "Nghệ An"
   },
   {
     "value": "138",
-    "name": "Phú Thọ"
+    "text": "Phú Thọ"
   },
   {
     "value": "177",
-    "name": "Phú Yên"
+    "text": "Phú Yên"
   },
   {
     "value": "178",
-    "name": "Quảng Bình"
+    "text": "Quảng Bình"
   },
   {
     "value": "180",
-    "name": "Quảng Nam"
+    "text": "Quảng Nam"
   },
   {
     "value": "139",
-    "name": "Quảng Ninh"
+    "text": "Quảng Ninh"
   },
   {
     "value": "181",
-    "name": "Quảng Ngãi"
+    "text": "Quảng Ngãi"
   },
   {
     "value": "179",
-    "name": "Quảng Trị"
+    "text": "Quảng Trị"
   },
   {
     "value": "164",
-    "name": "Sóc Trăng"
+    "text": "Sóc Trăng"
   },
   {
     "value": "140",
-    "name": "Sơn La"
+    "text": "Sơn La"
   },
   {
     "value": "165",
-    "name": "Tây Ninh"
+    "text": "Tây Ninh"
   },
   {
     "value": "166",
-    "name": "Tiền Giang"
+    "text": "Tiền Giang"
   },
   {
     "value": "184",
-    "name": "TP Hồ Chí Minh - Nội thành"
+    "text": "TP Hồ Chí Minh - Nội thành"
   },
   {
     "value": "158",
-    "name": "TP Hồ Chí Minh - Ngoại thành"
+    "text": "TP Hồ Chí Minh - Ngoại thành"
   },
   {
     "value": "144",
-    "name": "Tuyên Quang"
+    "text": "Tuyên Quang"
   },
   {
     "value": "141",
-    "name": "Thái Bình"
+    "text": "Thái Bình"
   },
   {
     "value": "142",
-    "name": "Thái Nguyên"
+    "text": "Thái Nguyên"
   },
   {
     "value": "143",
-    "name": "Thanh Hóa"
+    "text": "Thanh Hóa"
   },
   {
     "value": "174",
-    "name": "Thừa Thiên Huế"
+    "text": "Thừa Thiên Huế"
   },
   {
     "value": "167",
-    "name": "Trà Vinh"
+    "text": "Trà Vinh"
   },
   {
     "value": "168",
-    "name": "Vĩnh Long"
+    "text": "Vĩnh Long"
   },
   {
     "value": "145",
-    "name": "Vĩnh Phúc"
+    "text": "Vĩnh Phúc"
   },
   {
     "value": "146",
-    "name": "Yên Bái"
+    "text": "Yên Bái"
   }
 ]
