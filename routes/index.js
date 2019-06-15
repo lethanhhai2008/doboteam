@@ -9,7 +9,7 @@ var g_vietnam_locality = require('../data/vietnam_locality.json');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'ANGELHACK VIETNAM HACKATHON 2019', teamName: 'Dobo team' });
+  res.render('index', { title: 'ANGELHACK VIETNAM HACKATHON 2019', teamName: 'DoBo team' });
 });
 
 router.get('/demo/vnpost', function(req, res, next) {
@@ -18,11 +18,11 @@ router.get('/demo/vnpost', function(req, res, next) {
 
 const g_scope_code = {
     insite: '001',
-    outsite: '002',
+    outsite: '002'
 };
 const g_dimension_code = {
     weigh: '001',
-    size: '002',
+    size: '002'
 };
 router.post('/vnpostFree', function(req, res, next) {
     var result = {
@@ -104,6 +104,46 @@ router.get('/vnLocality', function(req, res, next) {
         response_data.error_message = 'No result!';
         res.json(response_data);
     }
+});
+
+router.post('/getType', function(req, res, next) {
+    var result = {
+        type: '001'
+    };
+    var body = req.body,
+    // scope_code = body.scope_code,
+        add_from = body.from,
+        add_to = body.to,
+        dimension = body.dimension;
+    // long = body.long,
+    // weight = body.weight,
+    // height = body.height;
+    console.log('---------getType Free---------');
+    console.log('Body: ', body);
+
+    if(add_from == add_to) {
+        if(dimension == g_dimension_code.weigh) {
+            result = {
+                type: '001'
+            };
+        } else {
+            result = {
+                type: '001'
+            };
+        }
+    } else {
+        if(dimension == g_dimension_code.weigh) {
+            result = {
+                type: '002'
+            };
+
+        } else {
+            result = {
+                type: '001'
+            };
+        }
+    }
+    res.status(200).send(result);
 });
 
 module.exports = router;
