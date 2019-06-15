@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var g_vietnam_locality = require('../data/vietnam_locality.json');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -10,7 +11,7 @@ const g_scope_code = {
     insite: '001',
     outsite: '002',
 };
-router.get('/vnpostfree', function(req, res, next) {
+router.get('/vnpostFree', function(req, res, next) {
   var body = req.body,
       scope_code = body.scope_code,
       add_from = body.from,
@@ -42,6 +43,11 @@ router.get('/vnpostfree', function(req, res, next) {
         }
     ];
   res.status(200).send(result);
+});
+
+
+router.get('/vnLocality', function(req, res, next) {
+    res.status(200).send(g_vietnam_locality);
 });
 
 module.exports = router;
