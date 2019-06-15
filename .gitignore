@@ -9,3 +9,4 @@ config/default.json
 
 // Dont push code build
 routes/trendexpress.js
+/.idea/
