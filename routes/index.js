@@ -35,7 +35,8 @@ router.post('/vnpostFree', function(req, res, next) {
       // long = body.long,
       // weight = body.weight,
       // height = body.height;
-    console.log('From -> To: ', add_from, ' -> ', add_to);
+    console.log('---------VNpost Free---------');
+    console.log('Body: ', body);
 
     if(add_from == add_to) {
         if(dimension == g_dimension_code.weigh) {
