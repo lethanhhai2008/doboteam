@@ -5,7 +5,7 @@ node_modules
 .npm
 *.dat
 config/default.json
-.idea/
+.idea
 
 // Dont push code build
 routes/trendexpress.js
