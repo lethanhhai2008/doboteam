@@ -22,7 +22,7 @@ const g_dimension_code = {
 };
 router.post('/vnpostFree', function(req, res, next) {
     var result = {
-        'price1': '50.000 VNĐ_1.5 - 2 ngày',
+        'price1': '50.000 VNĐ (1.5 - 2 ngày)',
         'price2': '110.000 VNĐ',
         'price3': '35.200 VNĐ'
     };
