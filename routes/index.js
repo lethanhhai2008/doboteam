@@ -4,7 +4,7 @@ var g_vietnam_locality = require('../data/vietnam_locality.json');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'ANGELHACK VIETNAM HACKATHON 2019', teamName: 'Domo team' });
+  res.render('index', { title: 'ANGELHACK VIETNAM HACKATHON 2019', teamName: 'Dobo team' });
 });
 
 const g_scope_code = {
@@ -47,7 +47,18 @@ router.get('/vnpostFree', function(req, res, next) {
 
 
 router.get('/vnLocality', function(req, res, next) {
-    res.status(200).send(g_vietnam_locality);
+    var response_data = {
+        type: "006",
+        data: []
+    };
+
+    try {
+        response_data.data = g_vietnam_locality;
+        res.json(response_data);
+    } catch(e) {
+        response_data.error_message = 'No result!';
+        res.json(response_data);
+    }
 });
 
 module.exports = router;
