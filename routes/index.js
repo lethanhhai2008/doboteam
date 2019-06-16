@@ -15,6 +15,9 @@ router.get('/', function(req, res, next) {
 router.get('/demo/vnpost', function(req, res, next) {
     res.render('vnpost', {});
 });
+router.get('/demo/vnpost2', function(req, res, next) {
+    res.render('vnpost2', {});
+});
 
 const g_scope_code = {
     insite: '001',
